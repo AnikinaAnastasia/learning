@@ -1,0 +1,100 @@
+* {
+    font-family: Ubuntu, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+body {
+    width: 100vw;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+p {
+    color: #4B5D68;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #212353;
+}
+
+header {
+    padding: 62px 10vw 0 10vw;
+    width: 100vw;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(../img/Screen01_bg.png);
+    background-repeat: no-repeat;
+    background-position: 85% 100%; 
+    position: relative;
+}
+
+.menu_logo {
+    margin-right: 121px;
+}
+.menu_items {
+    display: flex;
+}
+.menu_item {
+    margin-right: 40px;
+}
+.menu_item a {
+    font-size: 16px;
+    transition: all 0.5s linear;
+}
+.menu_item a:hover {
+    font-weight: 700;
+}
+.menu_item:last-child {
+    margin-right: 0;
+}
+.header_cont {
+    margin-top: 17vh;
+    width: 40vw;
+    min-width: 300px;
+}
+.header_h1 {
+    font-size: calc(36px + (80 - 36) * ((100vw - 320px) / (1600 - 320)));
+    font-weight: 700;
+}
+
+.header_text {
+    font-size: 18px;
+    width: 30vw;
+    margin: 50px 0 50px 0;
+    max-width: 380px;
+}
+
+.header_button {
+    padding: 16px 36px;
+    border-radius: 50px;
+    background-color: #9C69E2;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+
+
+/* adaptive */
+@media (min-width:1450px) {
+    .header_h1{
+        font-size: 80px;
+    }
+}
+
+@media (max-width:992px) {
+
+}
+@media (max-width:768px) {
+
+}
+@media (max-width:480px) {
+
+}
+@media (max-width:320px) {
+
+}
