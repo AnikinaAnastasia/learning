@@ -26,6 +26,7 @@
         <div class="header_bg"></div>
         <div class="menu">
             <ul class="menu_items">
+                <!-- TODO: неверное использование списка. Пропущены теги <li> '<ul> <li>Some text</li> </ul>' -->
                 <ul class="menu_logo">
                     <a href="/" class="logo">
                         <img src="assets/img/logo.svg" alt="logotype">
@@ -68,9 +69,11 @@
 
             <div class="feautures_items">
                 <div class="feautures_item">
+                    <!-- TODO: alt атрибут обязателен к заполнению, влияет на SEO -->
                     <img src="assets/img/search_img.png" alt="" class="feautures_img">
                     <div class="feautures_cont">
                         <div class="feautures_text">
+                            <!-- TODO: вижу есть сложности в наименовании классов по БЭМ, опишу в PR -->
                             <h3 class="feautures_item_h3">Search Data</h3>
                             <p class="feautures_item_p">Don’t worry if your data is very large, the Data Warehoue
                                 provides a
@@ -101,6 +104,7 @@
                     <div class="feautures_cont">
                         <div class="feautures_text">
                             <h3 class="feautures_item_h3">Print Out</h3>
+                            <!-- TODO: внимательно к чистоте кода (переносы) -->
                             <p class="feautures_item_p">Print out service gives you convenience if someday you need
                                 print
                                 data, just edit it all and just print it.</p>
@@ -127,6 +131,7 @@
 
 
         </div>
+        <!-- TODO: видимо здесь был комментарий, будь внимательнее. В итоге это попало в отображение на сайте -->
     </section> -->
 
 
@@ -135,6 +140,7 @@
 
     <section class="testimonials" id="testimonials">
         <div class="container testimonials_container">
+            <!-- TODO: не правильное использование заголовков h1-h6. Выше был h3 -->
             <h2 class="testimonials_h2">Testimonials</h2>
             <div class="slider">
                 <div class="slider_list">
@@ -144,6 +150,7 @@
                             <div class="slide_text">
                                 <h3 class="slide_h3">John Fang</h3>
                                 <p class="slide_profession">wordfaang.com</p>
+                                <!-- TODO: тег <br> закрывать не нужно. Он одиночный -->
                                 <p class="slide_p">Suspendisse ultrices at diam lectus nullam.</br> Nisl, sagittis
                                     viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet
                                     nulla.</p>
